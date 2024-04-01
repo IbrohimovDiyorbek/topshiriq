@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  padding: 30.5px;
+  background: rgb(11, 11, 11);
+}
+
+.logo_nav {
+  width: 141px;
+  height: 26px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+a {
+  width: 76px;
+  height: 13px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 1.04px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper_nav {
+  display: flex;
+  gap: 24px;
+}
+
+.iconcos {
+  display: flex;
+  gap: 16px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.header {
+  width: 100%;
+  height: 780px;
+  background-image: url(./IMAGE.png);
+}
+
+h1 {
+  width: 1200px;
+  height: 360px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 115px;
+  font-weight: 400;
+  line-height: 120px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 125px;
+}
+
+.wrapper_box {
+  display: flex;
+}
+
+.box1 {
+  width: 50%;
+  height: 740px;
+  background: rgb(74, 0, 255);
+}
+
+h2 {
+  width: 333px;
+  height: 132px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 112px;
+  padding-top: 222px;
+}
+
+.box_text {
+  width: 416px;
+  height: 68px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 112px;
+  margin-top: 200px;
+}
+
+.section_but {
+  width: 89px;
+  height: 23px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 145px;
+  height: 35px;
+  border-radius: 9999px;
+  background: rgb(11, 11, 11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 112px;
+  margin-top: 100px;
+}
+
+button:hover {
+  background: transparent;
+  border: 3px solid grey;
+  color: grey;
+}
+
+button:active {
+  background: transparent;
+  border: 3px solid green;
+  color: green;
+}
+
+.box2 {
+  width: 50%;
+  height: 740px;
+  background: rgb(11, 11, 11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  width: 526px;
+  height: 154px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 110px;
+  font-weight: 400;
+  line-height: 154px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.box3 {
+  width: 50%;
+  height: 740px;
+  background: #00FF9D;
+}
+
+.box4 {
+  width: 50%;
+  height: 740px;
+  background: #FF8B00;
+}
+
+.section {
+  background: rgb(11, 11, 11);
+}
+
+h4 {
+  position: absolute;
+  width: 757px;
+  height: 72px;
+  left: 435px;
+  top: 3135px;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 72px;
+  /* identical to box height, or 106% */
+  color: #FFFFFF;
+}
+
+.box_imgs {
+  position: relative;
+  padding-top: 176px;
+  display: flex;
+}
+
+.imgs {
+  background-image: url(./IMAGE\ \(1\).png);
+  width: 450px;
+  height: 600px;
+  margin-left: 24px;
+}
+
+h5 {
+  width: 195px;
+  height: 44px;
+  font-family: Poppins;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding-top: 429px;
+  margin-left: 32px;
+}
+
+.imgs_text {
+  width: 374px;
+  height: 86px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.6px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 64px;
+  margin-left: 32px;
+}
+
+.imgs1 {
+  background-image: url(./IMAGE\ \(2\).png);
+  width: 450px;
+  height: 600px;
+  margin-left: 24px;
+}
+
+.imgs2 {
+  background-image: url(./IMAGE\ \(3\).png);
+  width: 450px;
+  height: 600px;
+  margin-left: 24px;
+}
+
+footer {
+  background: #0B0B0B;
+  padding: 50px;
+}
+
+h6 {
+  /* Join Echio for free */
+  width: 556px;
+  height: 72px;
+  left: 362px;
+  top: 4987px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 72px;
+  /* identical to box height, or 103% */
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 60px;
+}
+
+.footer_btn {
+  width: 89px;
+  height: 23px;
+  color: rgb(11, 11, 11);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 145px;
+  height: 35px;
+  border-radius: 9999px;
+  background: rgb(255, 255, 2);
+  margin-top: 181px;
+}
+
+.but{
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+}
